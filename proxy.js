@@ -1,6 +1,8 @@
 代理： 
 Api.js：localhost和本地ip都行，
 LINK = "http://localhost:8080"
+
+
 Index.js：
 proxyTable: {
 '/app': {

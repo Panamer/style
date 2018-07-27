@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>背景色渐变</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+<script src="https://files.cnblogs.com/files/engeng/jquery.gradientify.min.js"></script>
+<script src="https://files.cnblogs.com/files/engeng/jquery-2.1.1.min.js"></script>
+<script src="https://files.cnblogs.com/files/engeng/jquery.gradientify.js"></script>
+<script>
+	$(document).ready(function() {
+		$("body").gradientify({
+			gradients: [
+				{ start: [49,76,172], stop: [242,159,191] },
+				{ start: [255,103,69], stop: [240,154,241] },
+				{ start: [33,229,241], stop: [235,236,117] }
+			]
+		});
+	});
+</script>
